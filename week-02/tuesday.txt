@@ -1,0 +1,2 @@
+### Checks if file/folder exists
+[ -f /etc/fstab ] ### Same as test
