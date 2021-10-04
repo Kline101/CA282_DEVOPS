@@ -1,7 +1,7 @@
 #!/bin/sh
 
-while read ARG
+while read FNAME && test -f "$FNAME"
 do
-#   test ! -f "$ARG" && printf "$ARG\n"
-    test ! -f "$ARG" && echo "$ARG"
+    : ## : is equivalent to the True command
 done
+echo "$FNAME"
