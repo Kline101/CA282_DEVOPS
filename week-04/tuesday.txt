@@ -1,0 +1,7 @@
+Cloning a git repository
+
+cd tmp
+ls -l
+git clone name_of_repo
+
+git pool
